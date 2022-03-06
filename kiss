@@ -88,56 +88,6 @@
       "name": "Store Member Info"
     },
     {
-      "storage": "4",
-      "varName": "osoba",
-      "comparison": "1",
-      "value": "tempVars(\"obj\")",
-      "branch": {
-        "iftrue": "0",
-        "iffalse": "3",
-        "iffalseVal": "2"
-      },
-      "name": "Check Variable"
-    },
-    {
-      "channel": "0",
-      "varName": "",
-      "message": "",
-      "buttons": [],
-      "selectMenus": [],
-      "attachments": [],
-      "embeds": [
-        {
-          "title": "Pojebało cie?",
-          "url": "",
-          "color": "",
-          "timestamp": "false",
-          "imageUrl": "",
-          "thumbUrl": "",
-          "description": "",
-          "fields": [],
-          "author": "",
-          "authorUrl": "",
-          "authorIcon": "",
-          "footerText": "",
-          "footerIconUrl": ""
-        }
-      ],
-      "reply": true,
-      "ephemeral": true,
-      "tts": false,
-      "overwrite": false,
-      "dontSend": false,
-      "editMessage": "0",
-      "editMessageVarName": "",
-      "storage": "0",
-      "varName2": "",
-      "name": "Send Message"
-    },
-    {
-      "name": "End Action Sequence"
-    },
-    {
       "token": "",
       "user": "",
       "pass": "",
