@@ -74,6 +74,14 @@
     {
       "member": "5",
       "varName": "osoba",
+      "info": "2",
+      "storage": "1",
+      "varName2": "us1",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "5",
+      "varName": "osoba",
       "info": "0",
       "storage": "1",
       "varName2": "obj",
@@ -117,7 +125,7 @@
           "thumbUrl": "",
           "description": "",
           "fields": [],
-          "author": "${tempVars(\"us\")} pocałował ${slashParams(\"osoba\")}",
+          "author": "${tempVars(\"us\")} pocałował ${tempVars(\"us1\")}",
           "authorUrl": "",
           "authorIcon": "${tempVars(\"av\")}",
           "footerText": "",
